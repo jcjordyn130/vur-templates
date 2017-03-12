@@ -1,5 +1,5 @@
-# Template file for 'runit'
-pkgname=runit
+# Template file for 'runit-subreaper'
+pkgname=runit-subreaper
 version=2.1.2
 revision=7
 wrksrc="admin"
