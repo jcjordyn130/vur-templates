@@ -13,7 +13,7 @@ checksum=6fd0160cb0cf1207de4e66754b6d39750cff14bb0aa66ab49490992c0c47ba18
 build_options="static"
 
 do_build() {
-	cd ${pkgname}-${version}/src
+	cd runit-${version}/src
 
 	if [ "$build_option_static" ]; then
 		CFLAGS+=" -static"
